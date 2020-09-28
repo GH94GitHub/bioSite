@@ -10,12 +10,17 @@ h1 {
 h2, h3 {
     border-bottom:1px solid black;
 }
+h1, h2, h3 {
+    font-family: 'Cuprum', 'Prata', 'Baloo Tamma 2', 'sans-serif';
+}
 
 body {
-    background-color: rgba(246, 135, 135, 0.0);;
+    background-color: rgba(246, 135, 135, 0.0);
 }
 figure {
-    margin:15px;
+    border:1px solid white;
+    text-align: center;
+    margin:10px 10px 0;
 }
 .imgSquare {
     width:400px;
@@ -43,6 +48,9 @@ nav a, nav a:hover{
 
 p {
     color: rgb(0, 0, 0);
+    font-family: 'Kalam', 'Neucha', 'Lemonada', cursive;
+
+    font-size:1.3em;
     font-weight:625;
 }
 
@@ -51,7 +59,7 @@ footer {
 }
 
 #mainContent {
-    padding:20px 25px;
+    padding-top: 10px;
     background-color:rgba(246, 135, 135, 0.75);
 }
 
